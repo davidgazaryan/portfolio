@@ -1,0 +1,142 @@
+.aboutsection {
+    font-size: large;
+    color:lightslategray;
+    height:auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    font-family: 'Poppins';
+}
+
+.aboutsection h1{
+    text-align: center;
+    color: black;
+}
+
+.aboutsection span {
+    padding-left: 0.5rem;
+}
+
+.aboutcontainer {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width:100%;
+    color:#333232;
+}
+.professional {
+    margin: 8rem;
+}
+
+.professional h4{
+    justify-content: center;
+    text-align: center;
+    padding-right: 2rem;
+    color: #252629;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.professional p{
+    line-height: 1.8;
+}
+
+.personal {
+   margin: 8rem;
+}
+
+.personal h4{
+    text-align: center;
+    justify-content: center;
+    color: #252629;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.personal p{
+    line-height: 1.8;
+}
+
+.contactcontainer {
+    margin-top:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    color: black;
+}
+
+
+
+.contactcontainer a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+
+.contactcontainer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:orange;
+}
+
+@media (max-width:1640px) {
+    .professional,
+    .personal{
+        margin:6rem;
+    }
+}
+
+@media (max-width:1290px) {
+    .aboutcontainer{
+        font-size: 1rem;
+    }
+    .professional,
+    .personal{
+        margin:5rem;
+    }
+}
+
+
+@media (max-width:1020px) {
+    .aboutcontainer{
+        font-size: 1rem;
+    }
+    .professional,
+    .personal{
+        margin:2rem;
+    }
+}
+
+@media (max-width:840px) {
+    .aboutcontainer{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .professional,
+    .personal{
+        margin:2rem;
+    }
+
+    .contactcontainer{
+        flex-direction: column;
+        gap:0;
+    }
+
+    .contactcontainer .linkedina{
+        align-items: center;
+        justify-content: center;
+        padding-left: 8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .contactcontainer {
+        font-size: 1rem;
+    }
+
+}

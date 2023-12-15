@@ -1,2 +1,2 @@
 # portfolio
-davidgazaryan.com
+https://davidgazaryan.com/

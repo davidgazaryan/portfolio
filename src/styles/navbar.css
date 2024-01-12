@@ -18,7 +18,6 @@
 }
 
 .expanded .links{
-    flex-direction:column;
     display:flex;
     flex-direction:column;
 }
